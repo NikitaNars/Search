@@ -22,22 +22,22 @@ namespace ConsoleApp2
 
                 if (comparison == 0)
                 {
-                    // Найден продукт
+                    
                     return sortedProducts[mid];
                 }
                 else if (comparison < 0)
                 {
-                    // Искомое имя правее
+                    
                     left = mid + 1;
                 }
                 else
                 {
-                    // Искомое имя левее
+                    
                     right = mid - 1;
                 }
             }
 
-            // Продукт не найден
+            
             return null;
 
 
